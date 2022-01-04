@@ -1,0 +1,32 @@
+{
+  "name": "gooner-weather-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to get current weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+		"cli",
+		"weather"
+	],
+  "author": "Maxim Pinchuk",
+  "bugs": {
+		"email": "m.pinchuk1995@gmail.com"
+	},
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/maximpinchuk/gooner-weather-cli"
+	},
+  "homepage": "https://github.com/maximpinchuk/gooner-weather-cli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
+  }
+}
