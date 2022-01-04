@@ -23,7 +23,7 @@
 		"url": "https://github.com/maximpinchuk/gooner-weather-cli"
 	},
   "homepage": "https://github.com/maximpinchuk/gooner-weather-cli",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.24.0",
     "chalk": "^5.0.0",
